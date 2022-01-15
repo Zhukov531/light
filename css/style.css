@@ -1,0 +1,90 @@
+@font-face { 
+    font-family: "MarionRegular";
+    src: url("../fonts/MarionRegular/MarionRegular.eot");
+    src: url("../fonts/MarionRegular/MarionRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MarionRegular/MarionRegular.woff") format("woff"),
+    url("../fonts/MarionRegular/MarionRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* --------------------- */
+
+body{
+    font-family: "Marion";
+}
+
+.header {
+    height: 100vh;
+    background: #202020;
+    padding: 0;
+    margin: 0;
+}
+.logo {
+    font-size: 25px;
+    margin-left: 20px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+.menu {
+    /* height: 30px; */
+    border-radius: 0 0 15px 15px;
+    /* background: #DDDDDD; */
+    background: white;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+}
+.menu-ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+}
+.menu-li {
+    font-size: 20px;
+    margin: 0 20px;
+}
+
+/* Основная шапка */
+
+.header-content {
+    /* height: 100%; */
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.header-img {
+    max-width: 80%;
+}
+.header-text {
+    align-items: flex-start;
+}
+.header-text-p1 {
+    font-size: 25px;
+}
+.header-text-h1 {
+    font-size: 85px;
+    margin-top: 35px;
+}
+.header-text-p2 {
+    font-size: 20px;
+    max-width: 450px;
+    margin-top: 20px;
+}
+.header-btn {
+    border-radius: 30px;
+    padding: 15px 40px;
+    background: #DDDDDD;
+    box-shadow: #DDDDDD 1px 1px 5px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-top: 35px;
+}
+.header-btn:hover{
+    transition: 0.5s;
+    box-shadow: darkgoldenrod 1px 1px 10px;
+    color: darkgoldenrod;
+    background: rgb(22, 22, 22);
+}
