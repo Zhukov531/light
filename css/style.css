@@ -46,6 +46,7 @@ body{
 .menu-li {
     font-size: 20px;
     margin: 0 20px;
+    display: inline-block;
 }
 
 /* Основная шапка */
